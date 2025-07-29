@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{yu2024cambriconllmchipletbasedhybridarchitecture}
+Zhongkai Yu, Shengwen Liang, Tianyun Ma, Yunke Cai, Ziyuan Nan, Di~Huang,
+  Xinkai Song, Yifan Hao, Jie Zhang, Tian Zhi, Yongwei Zhao, Zidong Du, Xing
+  Hu, Qi~Guo, and Tianshi Chen.
+\newblock Cambricon-llm: A chiplet-based hybrid architecture for on-device
+  inference of 70b llm, 2024.
+
+\bibitem{sakai2004computer_architecture}
+修一 坂井.
+\newblock {\em コンピュータアーキテクチャ}.
+\newblock 電子情報通信レクチャーシリーズ C-9. コロナ社,
+  2004.
+
+\end{thebibliography}

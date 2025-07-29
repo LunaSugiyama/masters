@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{1em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Luna Sugiyama}
+\lhead{Wed2 Natural Language Processing}
+\rfoot{\thepage}
+
+\title{\textbf{Final Report:\\Evaluation of Various Software Development AI Assistants}}
+% \vspace{0.5em}
+% \large [Optional Subtitle]}
+\author{
+    \makebox[\textwidth][c]{\textbf{Luna Sugiyama}} \\
+    \makebox[\textwidth][c]{Graduate School of Information Science and Technology} \\
+    \makebox[\textwidth][c]{Information and Communication Engineering} \\
+    \makebox[\textwidth][c]{\texttt{lunagracesugiyama@g.ecc.u-tokyo.ac.jp}}
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+I have recently been interested in Devin, Claude Code, and Cline which are AI assistant tools to help software development.
+In this report I will choose these services and evaluate them on various tasks and aspects to see their strengths and weaknesses.
+
+\section{About Each Service}
+\subsection{Devin~\cite{devin2024}~\cite{vibecoding}}
+Devin, developed by Cognition Labs, is positioned as the world's first fully autonomous AI software engineer. It is designed to take a high-level development request and independently execute the entire project from start to finish. This includes tasks such as:
+Planning and Architecture: Devising a comprehensive plan to address the user's prompt.
+Coding: Writing the necessary code in various programming languages.
+Debugging: Identifying and resolving issues within the codebase.
+Testing and Deployment: Ensuring the software functions correctly and deploying it.
+Devin operates as a sandboxed application, meaning it has its own development environment where it can install dependencies, write and execute code, and access the internet for research. This autonomy allows it to tackle complex, long-running tasks that have traditionally required a human development team.
+
+\section{Evaluation}
+Describe your approach, data collection methods, assumptions, tools used, etc.
+
+\section{Results / Findings}
+Present key results, findings, or analysis. You can include figures, tables, and equations where appropriate.
+
+\section{Discussion}
+Interpret your results, compare with existing work if relevant, and explain their implications.
+
+\section{Conclusion}
+Summarize the main points, state limitations, and propose future work or recommendations.
+
+\bibliographystyle{plain}
+\bibliography{references} % if you use a .bib file
+
+\end{document}
