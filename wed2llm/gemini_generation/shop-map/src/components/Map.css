@@ -1,0 +1,64 @@
+
+.map-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.floor-selector {
+  margin-bottom: 20px;
+}
+
+.floor-selector button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.floor-selector button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.floor {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.room-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.room {
+  border: 1px solid #eee;
+  padding: 20px;
+  flex: 1 1 200px;
+  transition: background-color 0.3s;
+}
+
+.room.highlight {
+  background-color: #e6f7ff;
+}
+
+.product-container {
+  margin-top: 10px;
+}
+
+.product {
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
