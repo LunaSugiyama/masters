@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{anthropic_claudecode}
+{Anthropic}.
+\newblock Claude code: Deep coding at terminal velocity.
+\newblock \url{https://www.anthropic.com/claude-code}, 2025.
+\newblock Accessed: 2025-07-31.
+
+\bibitem{google_gemini_cli}
+{Google}.
+\newblock Gemini cli: Your open-source ai agent for developers.
+\newblock
+  \url{https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/},
+  2025.
+\newblock Accessed: 2025-07-31.
+
+\bibitem{vibecoding}
+Kumar Madhukar.
+\newblock A comprehensive guide to vibe coding tools, 2025-03.
+\newblock Accessed: 2025-07-24.
+
+\end{thebibliography}

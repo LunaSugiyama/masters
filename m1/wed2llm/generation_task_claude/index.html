@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Floor Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>Shop Floor Map</h1>
+            <div class="search-container">
+                <input type="text" id="product-search" placeholder="Search for products..." />
+                <button id="search-btn">Search</button>
+                <button id="clear-search">Clear</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="floor-selector">
+                <h3>Select Floor</h3>
+                <div class="floor-buttons" id="floor-buttons">
+                    <!-- Floor buttons will be generated dynamically -->
+                </div>
+            </div>
+
+            <div class="map-container">
+                <div class="map-wrapper">
+                    <div class="floor-map" id="floor-map">
+                        <!-- Floor map will be rendered here -->
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <h4>Legend</h4>
+                    <div class="legend-item">
+                        <span class="legend-color product-location"></span>
+                        <span>Product Location</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color highlighted"></span>
+                        <span>Search Result</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color entrance"></span>
+                        <span>Entrance/Exit</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-results" id="search-results">
+                <!-- Search results will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
