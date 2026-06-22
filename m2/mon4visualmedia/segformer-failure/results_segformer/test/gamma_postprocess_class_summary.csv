@@ -1,0 +1,17 @@
+class_id,class_name,pixels,ratio
+1,building,805199,0.511932
+6,road,210582,0.133884
+2,sky,172772,0.109845
+4,tree,126224,0.080251
+20,car,83032,0.052790
+11,sidewalk,82338,0.052349
+12,person,55005,0.034971
+136,traffic light,12104,0.007696
+93,pole,11082,0.007046
+43,signboard,9263,0.005889
+87,streetlight,4306,0.002738
+102,van,957,0.000608
+
+mean_confidence,0.850380
+min_confidence,0.135010
+max_confidence,0.999984

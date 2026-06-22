@@ -1,0 +1,15 @@
+[project]
+name = "segformer-failure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy==1.26.4",
+    "opencv-python==4.10.0.84",
+    "pillow>=12.2.0",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "tqdm>=4.68.3",
+    "transformers>=5.12.1",
+]
