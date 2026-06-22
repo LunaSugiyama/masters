@@ -1,0 +1,9 @@
+class_id,class_name,ratio,mean_confidence,pixels
+1,building,0.496231,0.581306,274813
+4,tree,0.260170,0.527086,144082
+88,booth,0.243485,0.724682,134842
+0,wall,0.000114,0.200720,63
+
+target,vending machine
+target_exact_label_exists,False
+roi_mean_confidence,0.602066

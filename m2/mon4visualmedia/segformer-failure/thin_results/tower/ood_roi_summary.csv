@@ -1,0 +1,8 @@
+class_id,class_name,ratio,mean_confidence,pixels
+2,sky,0.691145,0.923558,38013
+1,building,0.297800,0.756461,16379
+87,streetlight,0.011055,0.381969,608
+
+target,tower
+target_exact_label_exists,True
+roi_mean_confidence,0.867810

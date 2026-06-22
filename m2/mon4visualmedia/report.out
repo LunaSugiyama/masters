@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Source Code}{}% 2
+\BOOKMARK [1][-]{section.3}{Target Paper}{}% 3
+\BOOKMARK [1][-]{section.4}{Method Understanding}{}% 4
+\BOOKMARK [1][-]{section.5}{Implementation and Execution Environment}{}% 5
+\BOOKMARK [1][-]{section.6}{Baseline Experiment: Urban Street Scene}{}% 6
+\BOOKMARK [1][-]{section.7}{Failure Case 1: Out-of-Distribution Object Category}{}% 7
+\BOOKMARK [2][-]{subsection.7.1}{Motivation}{section.7}% 8
+\BOOKMARK [2][-]{subsection.7.2}{Verification Method}{section.7}% 9
+\BOOKMARK [2][-]{subsection.7.3}{Results}{section.7}% 10
+\BOOKMARK [2][-]{subsection.7.4}{Analysis}{section.7}% 11
+\BOOKMARK [1][-]{section.8}{Improvement 1: Class-Set-Aware OOD Warning}{}% 12
+\BOOKMARK [2][-]{subsection.8.1}{Problem}{section.8}% 13
+\BOOKMARK [2][-]{subsection.8.2}{Proposed Improvement}{section.8}% 14
+\BOOKMARK [2][-]{subsection.8.3}{Baseline vs. Improved System}{section.8}% 15
+\BOOKMARK [1][-]{section.9}{Failure Case 2: Thin Object Disappearance}{}% 16
+\BOOKMARK [2][-]{subsection.9.1}{Motivation}{section.9}% 17
+\BOOKMARK [2][-]{subsection.9.2}{Results}{section.9}% 18
+\BOOKMARK [1][-]{section.10}{Improvement 2: Missing-Target Failure Warning}{}% 19
+\BOOKMARK [2][-]{subsection.10.1}{Attempted Improvement: Crop-Based High-Resolution Inference}{section.10}% 20
+\BOOKMARK [2][-]{subsection.10.2}{Proposed Improvement: Missing-Target Warning}{section.10}% 21
+\BOOKMARK [2][-]{subsection.10.3}{Baseline vs. Improved System}{section.10}% 22
+\BOOKMARK [1][-]{section.11}{Discussion}{}% 23
+\BOOKMARK [1][-]{section.12}{Limitations}{}% 24
+\BOOKMARK [1][-]{section.13}{Conclusion}{}% 25
+\BOOKMARK [1][-]{section.14}{Use of Generative AI}{}% 26

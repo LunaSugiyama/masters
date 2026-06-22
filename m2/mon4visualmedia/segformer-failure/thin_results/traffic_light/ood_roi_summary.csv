@@ -1,0 +1,8 @@
+class_id,class_name,ratio,mean_confidence,pixels
+1,building,0.697174,0.751524,19242
+136,traffic light,0.302283,0.563855,8343
+87,streetlight,0.000543,0.323961,15
+
+target,traffic light
+target_exact_label_exists,True
+roi_mean_confidence,0.694563

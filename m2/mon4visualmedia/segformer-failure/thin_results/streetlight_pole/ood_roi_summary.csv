@@ -1,0 +1,13 @@
+class_id,class_name,ratio,mean_confidence,pixels
+1,building,0.525564,0.849639,61491
+4,tree,0.181692,0.819791,21258
+12,person,0.096769,0.750380,11322
+2,sky,0.091897,0.828672,10752
+11,sidewalk,0.086239,0.631604,10090
+136,traffic light,0.015658,0.533848,1832
+87,streetlight,0.002043,0.225355,239
+93,pole,0.000137,0.269097,16
+
+target,streetlight
+target_exact_label_exists,True
+roi_mean_confidence,0.807582

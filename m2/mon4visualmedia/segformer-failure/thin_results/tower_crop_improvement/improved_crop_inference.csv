@@ -1,0 +1,6 @@
+class_id,class_name,ratio,mean_confidence,pixels
+1,building,0.546890,0.874383,288758
+2,sky,0.453011,0.976078,239190
+4,tree,0.000098,0.446662,52
+
+mean_confidence,0.920410

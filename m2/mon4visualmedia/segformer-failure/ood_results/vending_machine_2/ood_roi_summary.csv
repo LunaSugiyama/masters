@@ -1,0 +1,14 @@
+class_id,class_name,ratio,mean_confidence,pixels
+0,wall,0.357720,0.747940,81131
+78,arcade machine,0.252959,0.594646,57371
+50,refrigerator,0.178942,0.458460,40584
+3,floor,0.051354,0.541034,11647
+115,bag,0.047354,0.308821,10740
+40,base,0.037456,0.251619,8495
+12,person,0.034753,0.329881,7882
+24,shelf,0.023673,0.293778,5369
+10,cabinet,0.015789,0.374656,3581
+
+target,vending machine
+target_exact_label_exists,False
+roi_mean_confidence,0.576179
